@@ -4,6 +4,7 @@
     <list default="true" id="56cad946-3680-471d-aa1a-11b694b942ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Customer.java" afterPath="$PROJECT_DIR$/src/Customer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rental.java" afterPath="$PROJECT_DIR$/src/Rental.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,21 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state relative-caret-position="991">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rental.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Rental.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="330">
+              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -90,6 +91,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/Customer.java" />
+        <option value="$PROJECT_DIR$/src/Rental.java" />
       </list>
     </option>
   </component>
@@ -487,7 +489,7 @@
       <option name="presentableId" value="Default" />
       <updated>1494444313050</updated>
       <workItem from="1494444315277" duration="1547000" />
-      <workItem from="1494485128726" duration="705000" />
+      <workItem from="1494485128726" duration="982000" />
     </task>
     <task id="LOCAL-00001" summary="added CustomerTest to test the functionality of Customer">
       <created>1494485594270</created>
@@ -496,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494485594270</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Renaming of &quot;each&quot; in amountFor() to &quot;aRental&quot; and &quot;amount&quot; to &quot;result&quot;">
+      <created>1494485932969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494485932969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -506,12 +515,15 @@
     <history-entry file="CustomerTest - 2017.05.11 at 08h 56m 50s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomerTest - 2017.05.11 at 09h 00m 05s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="CustomerTest_addRental - 2017.05.11 at 08h 40m 26s.xml">
       <configuration name="CustomerTest.addRental" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2252000" />
+    <option name="totallyTimeSpent" value="2529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1915" extended-state="6" />
@@ -553,7 +565,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added CustomerTest to test the functionality of Customer" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CustomerTest to test the functionality of Customer" />
+    <MESSAGE value="Renaming of &quot;each&quot; in amountFor() to &quot;aRental&quot; and &quot;amount&quot; to &quot;result&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renaming of &quot;each&quot; in amountFor() to &quot;aRental&quot; and &quot;amount&quot; to &quot;result&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -639,14 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rental.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99">
@@ -659,8 +664,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        <state relative-caret-position="991">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rental.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
